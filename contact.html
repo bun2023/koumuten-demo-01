@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Design 001</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Demo Design 001</a>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="about.html">私たちについて</a></li>
+        <li><a href="method.html">家づくりについて</a></li>
+        <li><a href="work.html">施工事例</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="fas fa-bars" id="menu-btn"><span>menu</span></div>
+  </header>
+
+  <section class="visual">
+    <div class="visual-area">
+      <div class="p-visual">
+        <img src="img/visual04.jpg" alt="">
+      </div>
+      <div class="p-visual-text">
+        <p>お問い合わせ</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-info">
+    <h2 class="heading">お問い合わせ<br class="sp-only">いただくにあたり</h2>
+    <div class="container">
+      <div class="contact-info-list">
+        <ul>
+          <li>■ お問い合わせの際は「個人情報保護方針」をお読みになり、同意のうえご記入ください。
+          </li>
+          <li>■ 電話番号欄には、必ず連絡の取れる電話番号（自宅もしくは携帯電話）をご入力ください。
+          </li>
+          <li>■ 回答に時間がかかる場合がありますので、お急ぎの方はお電話にてお問い合わせください。
+          </li>
+          <li>■ 返信メールをお受け取りいただけるよう、受信設定（迷惑メール設定）等をお確かめください。
+          </li>
+          <li>■ 万一、こちらから返信がない場合は、大変お手数ですが再度ご連絡ください。
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 class="heading">お問い合わせ</h2>
+    <div class="container small">
+      <form action="">
+        <div class="box">
+          <label for="name"><span>必須</span>お名前</label>
+          <input type="text" id="name" autocomplete="additional-name">
+        </div class="box">
+        <div class="box">
+          <label for="katakana"><span>必須</span>カタカナ</label>
+          <input type="text" id="katakana">
+        </div>
+        <div class="box">
+          <label for="Email"><span>必須</span>メールアドレス</label>
+          <input type="email" name="email" id="email" autocomplete="email">
+        </div>
+        <div class="box">
+          <label for=""><span>必須</span>郵便番号</label>
+          <input type="text">
+        </div>
+        <div class="box">
+          <label for=""><span>必須</span>都道府県</label>
+          <input type="text">
+        </div>
+        <div class="box">
+          <label for=""><span>必須</span>住所</label>
+          <input type="text">
+        </div>
+        <div class="box">
+          <label for="TEL"><span>必須</span>電話番号</label>
+          <input type="tel" id="tel" name="tel">
+        </div>
+        <div class="box2">
+          <p><span>必須</span>お問い合わせ項目</p>
+          <input type="radio" name="koumoku" id="koumoku01">
+          <label for="koumoku01">資料請求</label>
+          <input type="radio" name="koumoku" id="koumoku02">
+          <label for="koumoku02">ご来場予約</label>
+          <input type="radio" name="koumoku" id="koumoku03">
+          <label for="koumoku03">お問い合わせ</label>
+        </div>
+        <div class="box">
+          <label for="text">お問い合わせ内容</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <input class="btn" type="submit" name="submit" value="送信">
+      </form>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 class="heading">アクセス</h2>
+    <div class="container">
+      <div class="map-area">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.5576374132816!2d135.77661267575624!3d34.967694472825976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f153d2e6d21%3A0x7b1aca1c753ae2e9!2z5LyP6KaL56iy6I235aSn56S-!5e0!3m2!1sja!2sjp!4v1698851582063!5m2!1sja!2sjp" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div> <!-- /small -->
+  </section> <!-- /contact-map -->
+
+
+  <footer class="footer-area">
+    <div class="container">
+      <div class="footer-address">
+        <ul>
+          <li><h3>株式会社　伏見工務店</h3></li>
+          <li><p>〒xxx-xxxx 京都市伏見区xxxxx3-7-1</p></li>
+          <li><p>TEL:xxx-xxx-xxxx</p></li>
+          <li><p>営業時間:8:00-17:00</p></li>
+          <li><p>定休日:日曜日・祝日</p></li>
+          <li><p>HP:xxxxxxx.co.jp</p></li>
+          <li><p>Email:xxxxxxx@xxx.com</p></li>
+        </ul>
+      </div> <!-- /footer-address -->
+      <div class="footer-nav">
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="about.html">私たちについて</a></li>
+          <li><a href="method.html">家づくりについて</a></li>
+          <li><a href="work.html">施工事例</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div> <!-- /footer-nav -->
+
+      <div class="footer-company">
+        <ul>
+          <li><a href="#">会社案内</a></li>
+          <li><a href="#">交通アクセス</a></li>
+          <li><a href="#">スタッフ紹介</a></li>
+          <li><a href="#">採用情報</a></li>
+        </ul>
+      </div>
+      <div class="footer-sns">
+        <ul>
+          <li><a href="#"><img src="img/facebook.SVG" alt=""></a></li>
+          <!-- <li><a href="#"><img src="img/x.SVG" alt=""></a></li> -->
+          <li><a href="#"><img src="img/Instagram.SVG" alt=""></a></li>
+          <li><a href="#"><img src="img/YouTube.SVG" alt=""></a></li>
+        </ul>
+      </div> <!-- /footer-sns -->
+    </div> <!-- /container -->
+    <div class="footer-copy">
+      <p>2023.10 &copy;Hiro Design</p>
+    </div>
+  </footer> <!-- /footer-area -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
